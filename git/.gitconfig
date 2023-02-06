@@ -3,6 +3,6 @@
     path = ~/.gitconfig_local
 
 [core]
-    editor = vim
+    editor = nvim
 	excludesfile = ~/.gitignore
 
