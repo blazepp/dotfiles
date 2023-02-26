@@ -1,31 +1,36 @@
+local opt = vim.opt -- conciseness
+
+-- sets the font
+opt.guifont = { "JetbrainsMono Nerd Font", "h14" }
+
 -- line numbers
-vim.opt.relativenumber = true
-vim.opt.number = true
+opt.relativenumber = true
+opt.number = true
 
 -- tabs and indentation
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
-vim.opt.autoindent = true
+opt.tabstop = 4
+opt.shiftwidth = 4
+opt.expandtab = true
+opt.autoindent = true
 
 -- line wrapping
-vim.opt.wrap = false
+opt.wrap = false
 
 -- search settings
-vim.opt.ignorecase = true
-vim.opt.smartcase = true
+opt.ignorecase = true
+opt.smartcase = true
 
 -- appearance
-vim.opt.termguicolors = true
-vim.opt.background = "dark"
-vim.opt.signcolumn = "yes"
+opt.termguicolors = true
+opt.background = "dark"
+opt.signcolumn = "yes"
 
 -- backspace
-vim.opt.backspace = "indent,eol,start"
+opt.backspace = "indent,eol,start"
 
 --clipboard
-vim.opt.clipboard:append("unnamed")
+opt.clipboard:append("unnamed")
 
 --split windows
-vim.opt.splitright = true
-vim.opt.splitbelow = true
+opt.splitright = true
+opt.splitbelow = true

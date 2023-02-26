@@ -1,8 +1,8 @@
 # use separate file for username / github token / etc
 [include]
-    path = ~/.gitconfig_local
+    path = ~/.gitconfig.local
 
 [core]
     editor = vim
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore.global
 
