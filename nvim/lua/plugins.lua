@@ -21,8 +21,9 @@ end
 -- plugins list
 local plugins = {
     'sainnhe/gruvbox-material',
-    {'nvim-lualine/lualine.nvim', dependencies = { 'kyazdani42/nvim-web-devicons', opt = true }},
-    'wakatime/vim-wakatime' 
+    {'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }},
+    {'glepnir/dashboard-nvim', event = 'VimEnter', config = function() require('dashboard').setup {} end, dependencies = { 'nvim-tree/nvim-web-devicons' }},
+    'wakatime/vim-wakatime'
 }
 
 -- options list

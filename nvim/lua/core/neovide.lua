@@ -1,4 +1,5 @@
 -- transparency
+vim.g.neovide_transparecy = 0.9
 vim.g.transparency = 0.9
 
 --floating blur amount
